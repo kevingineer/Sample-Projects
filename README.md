@@ -9,7 +9,7 @@ For this sample project, a program will be trained to classify objects that will
 2. Lugia (Legendary pocket monster from the anime franchise Pokémon)
 3. Taz (Tasmanian Devil from the cartoon Looney Tunes)
 
-##Dependencies
+## Dependencies
 For this project, the scripts that were used to train and test the Toys classifier ran successfully on the environment as described below:
 
 System:
@@ -20,13 +20,18 @@ System:
 - RAM: 8GB
 
 Software versions:
-- Python 3.5 (https://www.python.org/downloads/release/python-350/)
+- Python 3.5 
 - Python Libraries(all installed using native pip):
-  OpenCV (cv2)
-  tqdm (progress bar)
-  Tensorflow (GPU)
-  TFlearn
+  OpenCV (cv2),
+  tqdm (progress bar),
+  Tensorflow (GPU),
+  TFlearn,
   matplotlib
 - CUDA® Toolkit 9.0
 - cuDNN v7.0
 
+
+## Execution Guide
+1. Prepare the environment. Below is a guide on how to re-create the enviroment used to create and train the Toys model.
+  a. Download and install Python 3.5 (https://www.python.org/downloads/release/python-350/)
+  b. Download and insta
