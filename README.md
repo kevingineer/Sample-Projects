@@ -84,3 +84,11 @@ C. Prepare the classifier program:
      C:\user>python "C:\User\Toys\server.py"
   2. If using IDLE Python, open the script "server.py" and press F5.
   3. The model should start classifying the images and output Figure plots will be created : Figure 1 and Figure 2. Output files will be created: output-file.csv, toy_test_data.npy, etc.
+  
+  
+# References:
+Convolutional Neural Network (CNN), A.I. Wiki.Retrieved from http://www.psu.edu/ur/about/nittanymascot.htmlhttps://skymind.ai/wiki/convolutional-network
+Python : https://www.python.org/
+Tensorflow: https://www.tensorflow.org/
+cuDNN :https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html
+Nvidia Developer: https://developer.nvidia.com/
