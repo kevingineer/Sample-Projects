@@ -1,4 +1,4 @@
-#Toys - Simple CNN classifier program
+# Toys - Simple CNN classifier program
 
 ## Overview
 
