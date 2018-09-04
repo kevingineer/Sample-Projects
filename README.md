@@ -90,7 +90,7 @@ Copy <installpath>\cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computi
   2. If using IDLE Python, open the script "server.py" and press F5.
   3. The model should start classifying the images and output Figure plots will be created : Figure 1 and Figure 2. Output files will be created: output-file.csv, toy_test_data.npy, etc.
   
-** **Note that when using CPU-only Tensorflow, the following code must be run on command prompt (cmd) or shell pip3 \
+**Note that when using CPU-only Tensorflow, the following code must be run on command prompt (cmd) or shell pip3 \
      :install --upgrade tensorflow. Step 2 and 3 should be skipped. 
   
   
