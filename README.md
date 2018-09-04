@@ -42,13 +42,13 @@ Tthe scripts that were used to train and test the Toys classifier ran successful
   2. Download and install CUDA Toolkit 9.0 (https://developer.nvidia.com/cuda-90-download-archive)
   
   3. Download and install cuDNN v7.0: 
-     - Click on this link (https://developer.nvidia.com/rdp/form/cudnn-download-survey) and login the user's Nvidia credentials or create an new account.
+     - Click on this link (https://developer.nvidia.com/rdp/form/cudnn-download-survey) and enter the user's Nvidia credentials or create an new account.
      - After logging in, user should be in the cuDNN download page https://developer.nvidia.com/rdp/cudnn-download
-     - Accept the Terms and Conditions and click "Archived cuDNN Releases"
+     - Accept the Terms and Conditions and click on "Archived cuDNN Releases"
      - User should be in the cuDNN archive page (https://developer.nvidia.com/rdp/cudnn-archive)
      - Find and click the "Download cuDNN v7.0.5 (Dec 5, 2017), for CUDA 9.0". A list will pop-up. 
      - Look for cuDNN v7.0.5 Library for Windows 10 and click it. 
-     - A file named cudnn-9.0-windows10-x64-v7.zip should start being downloaded afterwards.
+     - A file named cudnn-9.0-windows10-x64-v7.zip should start downloading.
      - Unzip the file and copy the following files into the CUDA Toolkit directory: 
 Copy <installpath>\cuda\bin\cudnn64_7.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin.
 Copy <installpath>\cuda\ include\cudnn.h to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include.
