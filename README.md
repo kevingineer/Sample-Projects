@@ -86,7 +86,7 @@ Copy <installpath>\cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computi
   2. If using IDLE Python, open the script "client.py" and press F5.
   3. The model should start training and output files will be created: model, toys_train_data.npy, logs, etc.
  
-**E. Run the "server" script.**
+**E. Run the "client" script.**
   1. Using command prompt (cmd) or Powershell, sample code:
      C:\user>python "C:\User\Toys\server.py"
   2. If using IDLE Python, open the script "server.py" and press F5.
