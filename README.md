@@ -1,4 +1,4 @@
-# Toys - Simple CNN classifier program
+# Simple CNN classifier program - toys classifier
 
 ## Overview
 
@@ -13,7 +13,7 @@ A recognition (classifier) program called “server” will create a model that 
 
 
 ## Dependencies
-For this project, the scripts that were used to train and test the Toys classifier ran successfully on the environment as described below:
+Tthe scripts that were used to train and test the Toys classifier ran successfully on the environment as described below:
 
 **System:**
 - OS : Windows 10 
@@ -24,7 +24,7 @@ For this project, the scripts that were used to train and test the Toys classifi
 
 **Software versions:**
 - Python 3.5 
-- Python Libraries(all installed using native pip):
+- Python Libraries(latest compatible versions, all installed using native pip):
   OpenCV (cv2),
   tqdm (progress bar),
   Tensorflow (GPU),
@@ -89,10 +89,13 @@ Copy <installpath>\cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computi
   2. If using IDLE Python, open the script "server.py" and press F5.
   3. The model should start classifying the images and output Figure plots will be created : Figure 1 and Figure 2. Output files will be created: output-file.csv, toy_test_data.npy, etc.
   
+** **Note that when using CPU-only Tensorflow, the following code must be run on command prompt (cmd) or shell pip3 \
+     :install --upgrade tensorflow. Step 2 and 3 should be skipped. 
+  
   
 ## References:
-Convolutional Neural Network (CNN), A.I. Wiki.Retrieved from http://www.psu.edu/ur/about/nittanymascot.htmlhttps://skymind.ai/wiki/convolutional-network
-Python : https://www.python.org/
-Tensorflow: https://www.tensorflow.org/
-cuDNN :https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html
-Nvidia Developer: https://developer.nvidia.com/
+- Convolutional Neural Network (CNN), A.I. Wiki.Retrieved from http://www.psu.edu/ur/about/nittanymascot.htmlhttps://skymind.ai/wiki/convolutional-network
+- Python : https://www.python.org/
+- Tensorflow: https://www.tensorflow.org/
+- cuDNN :https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html
+- Nvidia Developer: https://developer.nvidia.com/
