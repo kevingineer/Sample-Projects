@@ -31,6 +31,7 @@ Tthe scripts that were used to train and test the Toys classifier ran successful
   Tensorflow (GPU),
   TFlearn,
   matplotlib
+  h5py
 - CUDA® Toolkit 9.0
 - cuDNN v7.0
 
@@ -62,6 +63,7 @@ Copy <installpath>\cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computi
      - pip3 install tqdm
      - pip3 install tflearn
      - pip3 install matplotlib
+     - pip3 install h5py
    
   5. Create a local folder where the user will place the required files for this sample project.
    
