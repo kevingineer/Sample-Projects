@@ -69,7 +69,7 @@ Copy <installpath>\cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computi
    
   6. For an alternative guide to install Tensorflow, user may refer to the TF site https://www.tensorflow.org/install/
     
-**B. After preparing the environment:**
+**B. Get the traininng and testing datasets:**
   1. Download the Training dataset: https://drive.google.com/file/d/1Af0lRPzE9Ej6AFhIOXXOUDj9IefO9rOf/view?usp=sharing
   2. Download the Test dataset: https://drive.google.com/file/d/1KPREOoK2VR45iUh1jbuHdt4_ymeaBkR4/view?usp=sharing
   3. Unzip the files and save them on the local folder created on step A.5 with folder name 'Train' and 'Test' respectively.
